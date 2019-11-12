@@ -1,0 +1,24 @@
+@import "../variable/variable";
+
+@mixin titel ($color, $f-size) {
+    color: $color;
+    font-size: $f-size;
+    font-weight: 400;
+    text-transform: $text-transform;
+}
+
+.intro__titel {
+    position: absolute;
+    bottom: 100px;
+    right: 50px;
+    font-family: "Baskerville";
+    .titel__one {
+        @include titel(#fcf9f7, 70px);
+        margin-right: 50px;
+    }
+    .titel__two {
+        @include titel(#d7794a, 45px);
+        margin-right: 50px;
+        font-family: "Baskerville";
+    }
+}

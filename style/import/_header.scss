@@ -1,0 +1,25 @@
+@import '../variable/variable';
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    line-height: 1.6;
+}
+
+.header {
+    padding-left: 63px;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    opacity: 0.71;
+    color: #d7794a;
+    text-transform: $text-transform;
+    letter-spacing: 0.63px;
+    height: 130px;
+    h1{
+        font-family:"Maria";
+    }
+}
